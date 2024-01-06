@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 100px;
+    background-color: #336699;
+}
+
+header .icon{
+    float: left;
+    width: 350px;
+    height: auto;
+}
+
+header .icon img{
+    width: 200px;
+    margin: 20px;
+}
+
+header .search{
+    width: 500px;
+    float: left;
+    line-height: 100px;
+    border-right: 1px solid white;
+}
+
+header .cart{
+    float: left;
+    width: 150px;
+    height: 100px;
+    border-right: 1px solid white;
+    margin: 0 30px;
+}
+
+header .cart p{
+    margin-top: 40px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+header .cart img{
+    margin-top: 40px;
+    float: left;
+    width: 80px;
+}
+
+header .user {
+    float: left;
+    width: 300px;
+}
+
+header .user img{
+    width: 120px;
+    margin: 30px;
+}
+
+menu{
+    clear: both;
+    float: left;
+    width: 320px;
+    margin-top: 20px
+}
+
+menu ul{
+    list-style-type: none;
+    width: 160px;
+    border: 1px solid #336699;
+}
+
+menu ul li{
+    display: block;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    position: relative;
+}
+
+menu ul li:hover{
+    color: #336699;
+}
+
+menu ul li .pre_menu{
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: 0px;
+}
+
+
+menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+menu ul li:hover .pre_menu{
+    display: block;
+}
+
+.content{
+    float: left;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+
+.content .line .pro{
+    float: left;
+    width: 270px;
+    height: 300px;
+    margin-right: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.content .line .pro img{
+    width: 200px;
+    margin: 35px;
+}
+
+.content .line .pro h3{
+    display: block;
+    margin: 3px 10px;
+}
+
+.content .line .pro h3:hover{
+    color:red;
+}
+
+.content .line .pro .cost{
+    margin-left: 10px;
+    float: left;
+}
+
+.content .line .pro .discount {
+    float: left;
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.content .line .pro .buy{
+    float: left;
+}
+.content .line .pro .buy img{
+    width: 60px;
+    margin: 25px;
+}
+
+
+
+
+
+
